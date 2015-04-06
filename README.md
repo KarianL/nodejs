@@ -13,22 +13,22 @@ tar xf archive.tar
 mv iojs-v1.6.3-linux-x64 iojs
 
 ### 设置环境变量
-1. 当前session 
+1 当前session 
 ````
 EXPORT IO_JS=<PATH to iojs>
 EXPORT PATH=$PATH:$IO_JS/bin
 ````
-2. 在profile中设置PATH
+2 在profile中设置PATH
 ````
 sudo vim /etc/profile
 EXPORT IO_JS=<PATH to iojs>
 EXPORT PATH=$PATH:$IO_JS/bin
 ````
-3. 在当前用户的profile中设置PATH
+3 在当前用户的profile中设置PATH
 ````
 vim ~/.bash_profile
 ````
-4. 刷新bash
+4 刷新bash
 ````
 source ~/.bash_profile
 or
@@ -44,7 +44,7 @@ sudo adduser <username> sudo
 sudo usermod -a -G sudo <username>
 ``
 
-### 切换用
+### 切换用户
 ``
 su <username>
 ``
